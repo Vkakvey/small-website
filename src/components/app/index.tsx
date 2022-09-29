@@ -1,13 +1,11 @@
 import React from "react";
 import "./index.css";
 import DefaultLayout from "../../layout/DefaultLayout";
-
+import Nav from "../../nav";
 const App:React.FC = () => {
   return (
     <DefaultLayout>
-      Hello 
-      <h1>hi</h1>
-      <h2>bye</h2>
+     <Nav/>
     </DefaultLayout> 
   )
 } 
