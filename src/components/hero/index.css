@@ -1,0 +1,18 @@
+div.hero {
+    background-repeat: no-repeat;
+    width: 100%;
+    height:80vh;
+    background-image: url("../../../public/img/hamburger.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+div.hero::after{
+    content: "Le Cartering";
+    position: absolute;
+    bottom: 0px;
+    font-size: 38px;
+    font-weight:bold;
+    left: 10px;
+    opacity: 0.5;
+}

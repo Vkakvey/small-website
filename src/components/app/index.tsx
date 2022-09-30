@@ -1,7 +1,9 @@
 import React from "react";
 import "./index.css";
-import DefaultLayout from "../../layout/DefaultLayout";
-import Nav from "../../nav";
+import DefaultLayout from "../layout/DefaultLayout";
+import Nav from "../nav";
+import Hero from "../hero";
+
 const App:React.FC = () => {
   return (
     
@@ -9,10 +11,11 @@ const App:React.FC = () => {
     {/* Nav */}
      <Nav/>
     {/* End of nav */}
-
-    {/* Hero */}
+    <div className="content">
+       {/* Hero */}
+     <Hero/>
     {/* End of hero */}
-
+    </div>
     {/* About */}
     {/* End of about */}
 
