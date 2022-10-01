@@ -3,7 +3,7 @@ import "./index.css";
 import DefaultLayout from "../layout/DefaultLayout";
 import Nav from "../nav";
 import Hero from "../hero";
-
+import About from "../about";
 const App:React.FC = () => {
   return (
     
@@ -15,10 +15,12 @@ const App:React.FC = () => {
        {/* Hero */}
      <Hero/>
     {/* End of hero */}
-    </div>
+    <div className="inside-content">
     {/* About */}
+    <About/>
     {/* End of about */}
-
+    </div>
+    </div>
     {/* Menu */}
     {/* End of menu */}
 
