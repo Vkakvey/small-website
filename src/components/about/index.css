@@ -1,45 +1,44 @@
-div.about {
-   width: 100%;
-   display: flex;
-   align-items: center;
-   height: 80vh;
-   padding: 10px 30px;
-   gap: 30px;
-}
-div.about > .img {
-    width: 50%;
-}
-div.about > .article{
-    width: 50%;
-}
-div.about > .article >.big-title,
-div.about > .article > .small-title{
+
+/* div.image-with-article-layout > .article >.big-title,
+div.image-with-article-layout > .article > .small-title{
   text-align: center;
 }
-div.about > .article >.big-title{
+div.image-with-article-layout  > .article >.big-title{
     margin-bottom: 20px;
     font-size: 36px;
-}
-div.about > .article > .small-title{
+} */
+/* div.image-with-article-layout  > .article > .small-title{
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 20px;
-}
-div.about > .article > p.normal{
+} */
+/* div.image-with-article-layout >  .article > p.normal{
     font-weight: 500;
     font-size: 20px;
     margin-top: 10px;
-}
-div.about > .article > p.normal > span{
+} */
+/* div.image-with-article-layout > .article > p.normal > span{
     background-color: rgb(196, 196, 210);
     padding: 6px;
 }
-div.about > .img > img{
+div.image-with-article-layout > .img > img{
    width:100%;
    border-radius: 10px;
 }
-div.about > .article > .p-gray{
+.div.image-with-article-layout > .article > .p-gray{
     color: gray;
     padding: 5px 0px;
+} */
+.bg-article {
+    width: 300px;
+    height: 100px;
+    /* background-color: aqua; */
+    position: relative;
+    bottom:555px;
+    left: 510px;
 }
-
+.bg-article >.big-title,
+.bg-article >.small-title{
+    text-align: center;
+    padding: 5px 5px;
+}

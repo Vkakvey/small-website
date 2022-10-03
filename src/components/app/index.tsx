@@ -4,6 +4,7 @@ import DefaultLayout from "../layout/DefaultLayout";
 import Nav from "../nav";
 import Hero from "../hero";
 import About from "../about";
+import OurMenu from "../our-menu";
 const App:React.FC = () => {
   return (
     
@@ -19,11 +20,14 @@ const App:React.FC = () => {
     {/* About */}
     <About/>
     {/* End of about */}
-    </div>
-    </div>
-    {/* Menu */}
-    {/* End of menu */}
 
+    <div className="line"></div>
+
+    {/* Menu */}
+    <OurMenu/>
+    {/* End of menu */}
+   </div>
+    </div>
     {/* Contact */}
     {/* End of Contact */}
 
