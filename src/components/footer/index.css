@@ -1,0 +1,17 @@
+.footer {
+    width: 100%;
+    background-color: #ADD8E6;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+.footer > p{
+    font-size:14px;
+}
+.footer > p > a{
+    color: #333;
+    font-size: 15px;
+}
+.footer > p > a:hover{
+    color: green;
+}
